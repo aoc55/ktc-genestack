@@ -66,6 +66,7 @@
   when:
     - host_sysstat_enabled | bool
 
+
 # [25.02.05] host-setup 오류로 비활성화 처리
 # - name: Create queue max script
 #   ansible.builtin.copy:
